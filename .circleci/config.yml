@@ -17,4 +17,4 @@ jobs:
 workflows:
   wd-web-platform:
     jobs:
-      - init_aws:
+      - init_aws
