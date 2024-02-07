@@ -1,4 +1,4 @@
-version:2.1:
+version: 2.1
 
 orbs:
   slack: circleci/slack@4.4.2
@@ -10,8 +10,6 @@ jobs:
         description: AWS Access Key Id
         type: string
 
-
 workflows:
   mytest-workflow:
-    jobs:
-      init_aws        
+    jobs: init_aws
