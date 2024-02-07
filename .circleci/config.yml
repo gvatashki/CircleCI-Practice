@@ -1,14 +1,18 @@
 version: 2.1
 
 orbs:
-  slack: circleci/slack@4.4.2
+  node: circleci/node@5.0.2
 
 jobs:
   init_aws:
-    parameters:
-      aws_access_key_id:
-        description: AWS Access Key Id
-        type: string
+    docker:
+      - image: 'cimg/node:16.16.0' 
+    steps:
+      - checkout
+      - node/install-packages  
+      - run:
+          name: Run tests
+          command: npm run test-ci    
 
 workflows:
   wd-web-platform:
