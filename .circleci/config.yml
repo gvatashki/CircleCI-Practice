@@ -11,5 +11,6 @@ jobs:
         type: string
 
 workflows:
-  mytest-workflow:
-    jobs: init_aws
+  wd-web-platform:
+    jobs:
+      - init_aws:
