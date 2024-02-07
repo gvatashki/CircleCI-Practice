@@ -1,0 +1,19 @@
+{
+  "name": "circleci-practice",
+  "version": "1.0.0",
+  "description": "Circle CI course explain all steps to create config.yml file",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gvatashki/CircleCI-Practice.git"
+  },
+  "author": "Georgi Vatashki",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/gvatashki/CircleCI-Practice/issues"
+  },
+  "homepage": "https://github.com/gvatashki/CircleCI-Practice#readme"
+}
